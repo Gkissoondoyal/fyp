@@ -8,7 +8,7 @@ model = joblib.load("RandomForestModel.pkl")
 model1 = joblib.load("RandomForestClassifier.pkl")
 
 # Define the app structure
-st.title("Insurance Claim Prediction")
+st.title("Medical Insurance Claim Prediction")
 
 # Organize input fields into two columns
 col1, col2 = st.columns(2)
